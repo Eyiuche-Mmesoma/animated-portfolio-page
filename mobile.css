@@ -1,0 +1,38 @@
+body {
+    overflow: visible;
+}
+
+.header-title {
+    font-size: 2.3rem;
+}
+
+/* hero  */
+.hero {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+.content {
+    text-align: center;
+    width: 350px;
+    justify-self: center;
+}
+
+.neon-button {
+    font-size: 1rem;
+}
+
+.profile-card {
+    width: 250px;
+    height: 250px;
+    justify-self: center;
+}
+
+.projects {
+    grid-template-columns: 1fr;
+    gap: 4rem;
+}
+
+.project-card {
+    justify-self: center;
+}
